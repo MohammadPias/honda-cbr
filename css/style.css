@@ -1,0 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-custom{
+    background-color: #264653;
+    ;
+}
+.btn-custom{
+    background: #E76F51;
+    color: white;
+    text-transform: capitalize;
+}
