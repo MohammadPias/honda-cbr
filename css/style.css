@@ -5,6 +5,10 @@ body{
     background-color: #264653;
     ;
 }
+.bg-custom2{
+    background-color: #E76F51;
+    ;
+}
 .btn-custom{
     background: #E76F51;
     color: white;
@@ -33,11 +37,11 @@ hr{
 }
 /* Upcoming Bikes */
 .trans:hover .trans-img{
-    transform: scale(1.25);
+    transform: scale(1.15);
 
 }
 .trans-img{
-    transition: transform 0.2s ease-in;
+    transition: transform 0.5s ease-in;
 }
 .btn-hover{
     display: none;
@@ -47,4 +51,5 @@ hr{
     position: relative;
     top: 15px;
     left: 300px;
+    transform: scale(1.5);
 }
