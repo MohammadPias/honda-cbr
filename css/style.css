@@ -31,3 +31,20 @@ hr{
 .border-grey{
     color: gray;
 }
+/* Upcoming Bikes */
+.trans:hover .trans-img{
+    transform: scale(1.25);
+
+}
+.trans-img{
+    transition: transform 0.2s ease-in;
+}
+.btn-hover{
+    display: none;
+}
+.trans:hover .btn-hover{
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 300px;
+}
